@@ -1,0 +1,50 @@
+[package]
+name = "beej_network_programming"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "showip"
+path = "src/showip.rs"
+
+[[bin]]
+name = "server"
+path = "src/server.rs"
+
+[[bin]]
+name = "client"
+path = "src/client.rs"
+
+[[bin]]
+name = "listener"
+path = "src/listener.rs"
+
+[[bin]]
+name = "talker"
+path = "src/talker.rs"
+
+[[bin]]
+name = "poll"
+path = "src/poll.rs"
+
+[[bin]]
+name = "pollserver"
+path = "src/pollserver.rs"
+
+[[bin]]
+name = "select"
+path = "src/select.rs"
+
+[[bin]]
+name = "selectserver"
+path = "src/selectserver.rs"
+
+[[bin]]
+name = "broadcaster"
+path = "src/broadcaster.rs"
+
+[dependencies]
+nix = "0.23.1"
+libc = "0.2.121"
